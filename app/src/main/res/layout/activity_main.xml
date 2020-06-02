@@ -25,16 +25,16 @@
     app:layout_constraintTop_toTopOf="parent"/>
   <ProgressBar
     android:id="@+id/pair_2_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_2_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_2_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_2_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_2_label"/>
 
   <TextView
     android:id="@+id/pair_3_label"
@@ -46,16 +46,16 @@
     app:layout_constraintTop_toBottomOf="@id/pair_2_label"/>
   <ProgressBar
     android:id="@+id/pair_3_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_3_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_3_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_3_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_3_label"/>
 
   <TextView
     android:id="@+id/pair_4_label"
@@ -67,16 +67,16 @@
     app:layout_constraintTop_toBottomOf="@id/pair_3_label"/>
   <ProgressBar
     android:id="@+id/pair_4_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_4_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_4_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_4_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_4_label"/>
 
   <TextView
     android:id="@+id/pair_5_label"
@@ -88,16 +88,16 @@
     app:layout_constraintTop_toBottomOf="@id/pair_4_label"/>
   <ProgressBar
     android:id="@+id/pair_5_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_5_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_5_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_5_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_5_label"/>
 
   <TextView
     android:id="@+id/pair_6_label"
@@ -109,16 +109,16 @@
     app:layout_constraintTop_toBottomOf="@id/pair_5_label"/>
   <ProgressBar
     android:id="@+id/pair_6_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_6_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_6_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_6_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_6_label"/>
 
   <TextView
     android:id="@+id/pair_7_label"
@@ -130,16 +130,16 @@
     app:layout_constraintTop_toBottomOf="@id/pair_6_label"/>
   <ProgressBar
     android:id="@+id/pair_7_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_7_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_7_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_7_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_7_label"/>
 
   <TextView
     android:id="@+id/pair_8_label"
@@ -151,16 +151,16 @@
     app:layout_constraintTop_toBottomOf="@id/pair_7_label"/>
   <ProgressBar
     android:id="@+id/pair_8_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_8_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_8_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_8_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_8_label"/>
 
   <TextView
     android:id="@+id/pair_9_label"
@@ -172,16 +172,16 @@
     app:layout_constraintTop_toBottomOf="@id/pair_8_label"/>
   <ProgressBar
     android:id="@+id/pair_9_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_9_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_9_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_9_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_9_label"/>
 
   <TextView
     android:id="@+id/pair_10_label"
@@ -193,16 +193,16 @@
     app:layout_constraintTop_toBottomOf="@id/pair_9_label"/>
   <ProgressBar
     android:id="@+id/pair_10_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_10_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_10_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_10_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_10_label"/>
 
   <TextView
     android:id="@+id/pair_11_label"
@@ -214,16 +214,16 @@
     app:layout_constraintTop_toBottomOf="@id/pair_10_label"/>
   <ProgressBar
     android:id="@+id/pair_11_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_11_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_11_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_11_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_11_label"/>
 
   <TextView
     android:id="@+id/pair_12_label"
@@ -235,37 +235,37 @@
     app:layout_constraintTop_toBottomOf="@id/pair_11_label"/>
   <ProgressBar
     android:id="@+id/pair_12_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/widget_margin"
     android:max="@integer/pair_count_max"
     android:progress="0"
-    android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/pair_12_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/pair_12_label"
-    app:layout_constraintBottom_toBottomOf="@id/pair_12_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/pair_12_label"/>
 
   <Button
     android:id="@+id/roller"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="@string/roll_title"
     android:layout_margin="8dp"
-    app:layout_constraintTop_toBottomOf="@id/pair_12_label"
+    android:text="@string/roll_title"
+    app:layout_constraintEnd_toStartOf="@id/dice_roll_layout"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintEnd_toStartOf="@id/dice_roll_layout"/>
+    app:layout_constraintTop_toBottomOf="@id/pair_12_label"/>
 
   <LinearLayout
     android:id="@+id/dice_roll_layout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
     android:gravity="center"
-    app:layout_constraintStart_toEndOf="@id/roller"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toBottomOf="@id/roller"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/roller"
-    app:layout_constraintBottom_toBottomOf="@id/roller">
+    app:layout_constraintStart_toEndOf="@id/roller"
+    app:layout_constraintTop_toTopOf="@id/roller">
 
     <ImageView
       android:id="@+id/die_1"
@@ -308,127 +308,121 @@
     android:id="@+id/scratch_1_label"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:includeFontPadding="false"
     android:layout_margin="@dimen/widget_margin"
-    android:text="1"
+    android:includeFontPadding="false"
     app:layout_constraintBottom_toTopOf="@id/scratch_2_label"
     app:layout_constraintEnd_toStartOf="@id/vertical_guideline"/>
   <ProgressBar
     android:id="@+id/scratch_1_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="0dp"
     android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:max="8"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/scratch_1_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/scratch_1_label"
-    app:layout_constraintBottom_toBottomOf="@id/scratch_1_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/scratch_1_label"/>
 
   <TextView
     android:id="@+id/scratch_2_label"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:includeFontPadding="false"
     android:layout_margin="@dimen/widget_margin"
-    android:text="2"
+    android:includeFontPadding="false"
     app:layout_constraintBottom_toTopOf="@id/scratch_3_label"
     app:layout_constraintEnd_toStartOf="@id/vertical_guideline"/>
   <ProgressBar
     android:id="@+id/scratch_2_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:max="8"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/scratch_2_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/scratch_2_label"
-    app:layout_constraintBottom_toBottomOf="@id/scratch_2_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/scratch_2_label"/>
 
   <TextView
     android:id="@+id/scratch_3_label"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:includeFontPadding="false"
     android:layout_margin="@dimen/widget_margin"
-    android:text="3"
+    android:includeFontPadding="false"
     app:layout_constraintBottom_toTopOf="@id/scratch_4_label"
     app:layout_constraintEnd_toStartOf="@id/vertical_guideline"/>
   <ProgressBar
     android:id="@+id/scratch_3_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:max="8"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/scratch_3_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/scratch_3_label"
-    app:layout_constraintBottom_toBottomOf="@id/scratch_3_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/scratch_3_label"/>
 
   <TextView
     android:id="@+id/scratch_4_label"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:includeFontPadding="false"
     android:layout_margin="@dimen/widget_margin"
-    android:text="4"
+    android:includeFontPadding="false"
     app:layout_constraintBottom_toTopOf="@id/scratch_5_label"
     app:layout_constraintEnd_toStartOf="@id/vertical_guideline"/>
   <ProgressBar
     android:id="@+id/scratch_4_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:max="8"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/scratch_4_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/scratch_4_label"
-    app:layout_constraintBottom_toBottomOf="@id/scratch_4_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/scratch_4_label"/>
 
   <TextView
     android:id="@+id/scratch_5_label"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:includeFontPadding="false"
     android:layout_margin="@dimen/widget_margin"
-    android:text="5"
+    android:includeFontPadding="false"
     app:layout_constraintBottom_toTopOf="@id/scratch_6_label"
     app:layout_constraintEnd_toStartOf="@id/vertical_guideline"/>
   <ProgressBar
     android:id="@+id/scratch_5_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:max="8"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/scratch_5_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/scratch_5_label"
-    app:layout_constraintBottom_toBottomOf="@id/scratch_5_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/scratch_5_label"/>
 
   <TextView
     android:id="@+id/scratch_6_label"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:includeFontPadding="false"
     android:layout_margin="@dimen/widget_margin"
-    android:text="6"
+    android:includeFontPadding="false"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toStartOf="@id/vertical_guideline"/>
   <ProgressBar
     android:id="@+id/scratch_6_count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/widget_margin"
-    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
     android:max="8"
-    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintBottom_toBottomOf="@id/scratch_6_label"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toTopOf="@id/scratch_6_label"
-    app:layout_constraintBottom_toBottomOf="@id/scratch_6_label"/>
+    app:layout_constraintStart_toEndOf="@id/vertical_guideline"
+    app:layout_constraintTop_toTopOf="@id/scratch_6_label"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
