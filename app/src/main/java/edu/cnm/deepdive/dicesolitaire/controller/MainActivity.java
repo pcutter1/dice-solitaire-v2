@@ -1,4 +1,4 @@
-package edu.cnm.deepdive.dicesolitaire;
+package edu.cnm.deepdive.dicesolitaire.controller;
 
 import static edu.cnm.deepdive.dicesolitaire.model.Roll.NUM_FACES;
 
@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
+import edu.cnm.deepdive.dicesolitaire.R;
 import edu.cnm.deepdive.dicesolitaire.model.Roll;
 import java.text.NumberFormat;
 import java.util.Arrays;
