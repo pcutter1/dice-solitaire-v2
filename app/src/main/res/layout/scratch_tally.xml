@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="start|center_vertical"
+  android:orientation="horizontal">
+
+  <TextView
+    android:id="@+id/value"
+    style="@style/TallyText"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="5"
+    android:layout_margin="@dimen/widget_margin"
+    android:includeFontPadding="false"
+    android:textAlignment="viewEnd"/>
+
+  <ProgressBar
+    android:id="@+id/count"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="95"
+    android:layout_margin="@dimen/widget_margin"
+    android:progress="0"/>
+
+</LinearLayout>
