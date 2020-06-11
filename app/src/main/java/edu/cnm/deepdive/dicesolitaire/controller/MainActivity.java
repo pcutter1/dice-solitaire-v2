@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
   private TextView[] scratchLabels;
   private ProgressBar[] scratchCounts;
   private ImageView[] diceImages;
-  private Drawable[] diceFaces;
   private Button roller;
   private Random rng = new Random();
 
@@ -92,15 +91,8 @@ public class MainActivity extends AppCompatActivity {
     diceImages = new ImageView[Game.NUM_DICE];
     for (int i = 0; i < Game.NUM_DICE; i++) {
       ImageView die = (ImageView) inflater.inflate(R.layout.die_display, dice, false);
-      die.setImageDrawable(getDrawable(R.drawable.face_6));
       diceImages[i] = die;
       dice.addView(die);
-    }
-    diceFaces = new Drawable[Game.NUM_FACES];
-    for (int i = 0; i < Game.NUM_FACES; i++) {
-      String idString = String.format(DICE_FACE_ID_FORMAT, i + 1);
-      int id = res.getIdentifier(idString, "drawable", getPackageName());
-      diceFaces[i] = getDrawable(id);
     }
   }
 
@@ -113,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
   }
 
   private void displayDiceFace(int die, int value) {
-    diceImages[die].setImageDrawable(diceFaces[value - 1]);
+    diceImages[die].setImageLevel(value);
   }
 
   private class DiceAnimator extends Thread {
